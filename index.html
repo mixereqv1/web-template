@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css'>
+
+    <title>Web template</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <img class="header-logo" src="logo.png">
+        <h1 class="header-title">Welcome on our site</h1>
+    </header>
+    <nav class="site-nav">
+        <div id="calendar"></div>
+        <ul class="nav-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nav-links">Projects</a>
+                <ul class="projects-dropdown">
+                    <li>
+                        <a target="_blank" href="https://mixereq.pl" class="projects-links">Portfolio</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://mixereqv1.github.io/ToDo-app/" class="projects-links">ToDo app</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://mixereqv1.github.io/Rock-paper-scissors/" class="projects-links">Rock paper scissors</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="site-main">
+        <section class="main-articles">
+            <article class="article">
+                <span class="article-title first">Article 1</span>
+                <span id="article1" class="article-content"> ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                    fringilla ut ligula et congue. Phasellus
+                    tempus, ipsum ut tincidunt eleifend, purus nulla facilisis felis, sit amet egestas ante turpis eget
+                    elit. Aliquam congue nisl eget nulla feugiat facilisis. Nullam interdum egestas dui. In a sem eu sem
+                    fringilla elementum. Ut in tempor augue...
+                    <a target="_blank" href="https://pl.lipsum.com" class="article-more">[Read more...]</a></span>
+            </article>
+            <article class="article">
+                <span class="article-title second">Article 2</span>
+                <span id="article2" class="article-content"> ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                    fringilla ut ligula et congue. Phasellus
+                    tempus, ipsum ut tincidunt eleifend, purus nulla facilisis felis, sit amet egestas ante turpis eget
+                    elit. Aliquam congue nisl eget nulla feugiat facilisis. Nullam interdum egestas dui. In a sem eu sem
+                    fringilla elementum. Ut in tempor augue...
+                    <a target="_blank" href="https://pl.lipsum.com" class="article-more">[Read more...]</a></span>
+            </article>
+            <section class="main-tabs">
+                <span class="tabs-title">Countdown to end of the school year</span>
+                <div id="result" class="result"></div>
+                <!-- <section class="stopwatch">
+                        <span class="stopwatch-title">Stopwatch</span>
+                        <div class="tabs">
+                            <button onclick="timer()" id="startbtn">Start</button>
+                        </div>
+                        <div class="tabs">
+                            <button id="stopbtn">Stop</button>
+                        </div>
+                        <div class="tabs">
+                            <button id="resetbtn">Reset</button>
+                        </div>
+                        <div id="stopwatch-result" class="stopwatch-result">
+                            00:00:00
+                        </div>
+                    </section> -->
+
+                <div class="buttons">
+                    <button class="btn">First paragraph Lorem</button>
+                    <button class="btn">Second paragraph Lorem</button>
+                    <button class="btn">Third paragraph Lorem</button>
+                </div>
+
+                <div class="text animated bounceIn">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec a
+                    vestibulum mi. Curabitur condimentum nunc sagittis quam tincidunt, ac tincidunt odio sagittis. Duis
+                    semper eros a placerat condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <div class="text animated bounceIn">Integer ullamcorper dui at nunc pellentesque
+                    tincidunt. Donec sodales
+                    lacinia magna sed imperdiet. Quisque eu elit et dui pellentesque aliquam. Praesent suscipit nisl ut
+                    elementum lobortis. Sed finibus ex tellus, non euismod orci congue at. Etiam eget interdum augue.
+                    Phasellus porta orci at dolor efficitur tincidunt.</div>
+                <div class="text animated bounceIn"> Nulla facilisi. Aenean ultricies, tortor id dictum
+                    gravida, ex tortor iaculis nisi, eget blandit neque turpis id nibh. Morbi nec efficitur nulla.
+                    Aliquam et tempor libero, a molestie purus. Mauris quam enim, laoreet vel lacus ut, tincidunt
+                    posuere nibh. Fusce vel arcu eu augue sodales commodo. Ut in turpis tristique, ultrices purus eget,
+                    feugiat magna. </div>
+
+            </section>
+        </section>
+        <aside class="main-rightbar"></aside>
+    </main>
+    <footer class="site-footer">
+        Mateusz Ral &copy; 2019r.
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
